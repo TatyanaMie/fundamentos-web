@@ -5,83 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--p atualizar o edge (navegador) pq tava dando mto problema-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--estrutura de responsividade p o site ficar responsivo-->
     <title>Filmes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
   
 </head>
 <body>
-    <ul>
-        <a href="index.html"> <li> Home</li> </a>
-        <a href="https://www.cinemark.com.br/sao-paulo"> <li>Comprar Ingressos</li></a>
-        <a href="contato.html"> <li>Contato</li></a>
+    <ul class="menu" >
+        <li> <a href="index.html"> Home </a> </li>
+        <li><a href="https://www.cinemark.com.br/sao-paulo"> Comprar Ingressos</a> </li>
+        <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Proximos lançamentos de 2022</h1>
-    <p>2022 já começou e teremos grandes estreias de diferentes gêneros nos cinemas. Confira abaixo os filmes mais esperados que estreiam esse ano!</p>
-    <img src="assets/img/cinema-CRED-iStock_Roman-Valiev (1).jpg" alt="imagem de pipoca e cinema" title="filme" width="420" height="305">
+    <hr>
+    <h1 class="center p-50">Proximos lançamentos de 2022</h1>
+    <div class="container1">
+        <div class="p-20">
+            <p class="center">2022 já começou e teremos grandes estreias de diferentes gêneros nos cinemas. Confira abaixo os filmes mais esperados que estreiam esse ano!</p>
+        </div>
+        <div class="fundo2">
+            <a href="#topico1">
+                <img class="ml-20" src="assets/img/batman.jpg" alt="Poster do novo filme do Batman" title="Batman 2022" width="350" height="400">
+            </a>
+            <a href="#topico2">
+                <img class="ml-20" src="assets/img/doctorStrange.jpg" alt="Poster do filme Dr Estranho"width="350" height="400">
+            </a>
+            <a href="#topico3">
+                <img class="ml-20" src="assets/img/animais-fantasticos-01.jpg" alt="Poster do filme Animais Fantásticos"width="350" height="400">
+            </a>
+            <a href="#topico4">
+                <img class="ml-20" src="assets/img/mobious.jpg" alt="Poster do filme Morbius"width="290" height="400">
+            </a>
+        </div>
+    </div>
     
-    <h2>1.The Batman</h2>
-    <img src="assets/img/batman.jpg" alt="Poster do novo filme do Batman" title="Batman 2022" width="800" height="800">
-    <p>Nos dois anos em que protegeu as ruas como Batman (Robert Pattinson), provocando medo no coração dos criminosos, Bruce Wayne mergulhou nas sombras de Gotham City.</p>
-     <p>Quando um assassino mira a elite de Gotham com uma série de maquinações sádicas, um rastro de pistas enigmáticas leva Batman,</p>  
-    <p>o Maior Detetive do Mundo, a investigar o submundo da cidade, onde encontra personagens como Selina Kyle, a Mulher-Gato (Zoë Kravitz), </p>
-    <p>Oswald Cobblepot, conhecido como Pinguim (Colin Farrell), Carmine Falcone (John Turturro) e Edward Nashton, também conhecido como Charada (Paul Dano). </p>
-    <p>À medida que surgem evidências e as ações do criminoso apontam para uma direção mais clara, Batman precisa forjar novas relações,</p>
-    <p>desmascarar o culpado e trazer justiça a Gotham City, há tanto tempo atormentada pelo abuso de poder e pela corrupção.</p>
-    <p> <b> Data de lançamento:</b> 3 de março de 2022 (Brasil)</p>
+    <h2 id="topico1" class="p-50">1. The Batman</h2>
+    <div >
+        <div class="container">
+            <iframe
+            width="560" height="315" src="https://www.youtube.com/embed/rsQEor4y2hg?start=1" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="p-18">
+            <p>Nos dois anos em que protegeu as ruas como Batman (Robert Pattinson), provocando medo no coração dos criminosos, Bruce Wayne mergulhou nas sombras de Gotham City.
+            Quando um assassino mira a elite de Gotham com uma série de maquinações sádicas, um rastro de pistas enigmáticas leva Batman,
+           o Maior Detetive do Mundo, a investigar o submundo da cidade, onde encontra personagens como Selina Kyle, a Mulher-Gato (Zoë Kravitz), 
+           Oswald Cobblepot, conhecido como Pinguim (Colin Farrell), Carmine Falcone (John Turturro) e Edward Nashton, também conhecido como Charada (Paul Dano). </p>
+           <p> À medida que surgem evidências e as ações do criminoso apontam para uma direção mais clara, Batman precisa forjar novas relações,
+           desmascarar o culpado e trazer justiça a Gotham City, há tanto tempo atormentada pelo abuso de poder e pela corrupção.</p>
+           <p> <b> Data de lançamento:</b> 3 de março de 2022 (Brasil)</p>
+        
+           <ul class="ingresso">
+            <li><a href="https://www.cinemark.com.br/sao-paulo">Comprar Ingressos</a></li>
+        </ul>
+        </div>
+    </div>
+
+    <h2 id="topico2" class="p-50">2. Doutor Estranho no Multiverso da Loucura</h2>
+    <div class="container">
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/mOuTbZhHCnY?start=1" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="p-18">
+        <p>Ex-cirurgião genial e o mago mais forte do além, Doutor Estranho. O feitiço proibido mais perigoso em sua magia de manipular o tempo e o espaço abriu a porta para uma misteriosa loucura chamada “Multiverso”.
+            Para restaurar o mundo onde tudo está mudando, Strange pede a Wanda, a Feiticeira Escarlate, que já mostrou grande poder para ameaçar os Vingadores.</p>
+             <p>No entanto, uma ameaça terrível que não podia mais ser controlada apenas por seu poder se aproxima da humanidade e de todo o universo. Ainda mais surpreendente, a maior ameaça do universo se parece exatamente com o Doutor Estranho.</p>
+             <p> <b>Data de lançamento:</b> 5 de maio de 2022 (Brasil)</p>
+             <ul class="ingresso">
+                 <li><a href="https://www.cinemark.com.br/sao-paulo">Comprar Ingressos</a></li>
+             </ul>
+    </div>
     
-    <ul>
-        <a href="batman.html">
-        <li> Trailer</li> </a>
-        <a href="https://www.cinemark.com.br/sao-paulo">
-            <li>Comprar Ingressos</li></a>
-    </ul>
 
-    <h2>2.Doutor Estranho no Multiverso da Loucura</h2>
-    <img src="assets/img/doctorStrange.jpg" alt="Poster do filme Dr Estranho"width="720" height="900">
+    <h2 id="topico3" class="p-50">3. Animais Fantásticos: Os Segredos de Dumbledore</h2>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5SjYFF2g35c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="p-18">
+        <p>O professor Alvo Dumbledore (Jude Law) sabe que o poderoso mago das trevas Gellert Grindelwald (Mads Mikkelsen) está se movimentando para assumir o controle do mundo mágico.</p>
+        Incapaz de detê-lo sozinho, ele pede ao magizoologista Newt Scamander (Eddie Redmayne) para liderar uma intrépida equipe de bruxos, bruxas e um corajoso padeiro trouxa em uma missão perigosa,em que eles encontram velhos e novos animais fantásticos e entram em conflito com a crescente legião de seguidores de Grindelwald. </p>
+        <p>Mas com tantas ameaças, quanto tempo poderá Dumbledore permanecer à margem do embate?</p>
+        <p> <b>Data de lançamento:</b> 14 abril de 2022 (Brasil)</p>
+        <ul class="ingresso">
+            <li><a href="https://www.cinemark.com.br/sao-paulo">Comprar Ingressos</a></li>
+        </ul>
+    </div>
+   
 
-    <p>Ex-cirurgião genial e o mago mais forte do além, Doutor Estranho.
-        O feitiço proibido mais perigoso em sua magia de manipular o tempo e o espaço abriu a porta para uma misteriosa loucura chamada “Multiverso”.</p>
-   <p>Para restaurar o mundo onde tudo está mudando, Strange pede a Wanda, a Feiticeira Escarlate, que já mostrou grande poder para ameaçar os Vingadores.</p>
-    <p>No entanto, uma ameaça terrível que não podia mais ser controlada apenas por seu poder se aproxima da humanidade e de todo o universo.</p>
-   <p>Ainda mais surpreendente, a maior ameaça do universo se parece exatamente com o Doutor Estranho.</p>
-    <p> <b>Data de lançamento:</b> 5 de maio de 2022 (Brasil)</p>
+    <h2 id="topico4" class="p-50">4. Morbius</h2>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S55qvOKW5T0?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="p-18">
+        <p>Baseado no personagem de mesmo nome da Marvel Comics, Michael Morbius (Jared Letto) sempre sofreu com uma condição rara em seu sangue que o faz andar de bengala e desde criança ser excluído por outros, mas sua vida solitária foi preenchida por livros.Após 
+            se formar na faculdade, Doutor Morbius é renomado na área de biomedicina e tenta achar uma cura para sua rara condição, afim de não apenas se ajudar, mas ajudar outras pessoas que também sofrem como ele.</p>
+        <p>Experimentando com o DNA de morcegos, Morbius espera achar a cura e se usa como teste para o soro.Usando o DNA que isolou e uma mistura de eletrochoque, a cura foi um sucesso temporário, mas os efeitos colaterais acabaram transformando-o em um pseudo-vampiro e que agora precisa sobreviver como um.
+        <p>Apesar de ganhar capacidades iguais a de um morcego, Morbius precisa de sangue humano para sobreviver, os efeitos colaterais também o fez mudar fisicamente, ganhando presas e uma pele pálida.</p>
+        <p>Além disso, a cada pessoa que ele morde, ela também vira um ser igual a ele.</p>
+        <p><b>Data de lançamento:</b> 31 de março de 2022 (Brasil)</p>
+        <ul class="ingresso">
+            <li><a href="https://www.cinemark.com.br/sao-paulo">Comprar Ingressos</a></li>
+        </ul>
+    </div>
     
-    <ul>
-        <a href="DrEstranho.html">
-            <li>Trailer</li></a>
-            <a href="https://www.cinemark.com.br/sao-paulo">
-                <li>Comprar Ingressos</li></a>
-    </ul>
-
-    <h2>3.Animais Fantásticos: Os Segredos de Dumbledore</h2>
-    <img src="assets/img/animais-fantasticos-01.jpg" alt="Poster do filme Animais Fantásticos">
-    <p>O professor Alvo Dumbledore (Jude Law) sabe que o poderoso mago das trevas Gellert Grindelwald (Mads Mikkelsen) está se movimentando para assumir o controle do mundo mágico.</p>
-    <p>Incapaz de detê-lo sozinho, ele pede ao magizoologista Newt Scamander (Eddie Redmayne) para liderar uma intrépida equipe de bruxos, bruxas e um corajoso padeiro trouxa em uma missão perigosa,</p>
-    <p>em que eles encontram velhos e novos animais fantásticos e entram em conflito com a crescente legião de seguidores de Grindelwald. </p>
-    <p>Mas com tantas ameaças, quanto tempo poderá Dumbledore permanecer à margem do embate?</p>
-    <p> <b>Data de lançamento:</b> 14 abril de 2022 (Brasil)</p>
-    <ul>
-        <a href="AnimaisFantasticos.html">
-            <li>Trailer</li></a>
-            <a href="https://www.cinemark.com.br/sao-paulo">
-            <li>Comprar Ingressos</li></a>
-    </ul>
-
-    <h2>4.Morbius</h2>
-    <img src="assets/img/mobious.jpg" alt="Poster do filme Morbius">
-    <p>Baseado no personagem de mesmo nome da Marvel Comics, Michael Morbius (Jared Letto) sempre sofreu com uma condição rara em seu sangue que o faz andar de bengala e desde criança ser excluído por outros, mas sua vida solitária foi preenchida por livros. </p>
-    <p>Após se formar na faculdade, Doutor Morbius é renomado na área de biomedicina e tenta achar uma cura para sua rara condição, afim de não apenas se ajudar, mas ajudar outras pessoas que também sofrem como ele.</p>
-    <p>Experimentando com o DNA de morcegos, Morbius espera achar a cura e se usa como teste para o soro. </p>
-    <p>Usando o DNA que isolou e uma mistura de eletrochoque, a cura foi um sucesso temporário, mas os efeitos colaterais acabaram transformando-o em um pseudo-vampiro e que agora precisa sobreviver como um.</p>
-    <p>Apesar de ganhar capacidades iguais a de um morcego, Morbius precisa de sangue humano para sobreviver, os efeitos colaterais também o fez mudar fisicamente, ganhando presas e uma pele pálida.</p>
-    <p>Além disso, a cada pessoa que ele morde, ela também vira um ser igual a ele.</p>
-    <p><b>Data de lançamento:</b> 31 de março de 2022 (Brasil)</p>
-    <ul>
-        <a href="Morbius.html">
-            <li>Trailer</li>
+    
+    <hr>
+    <footer>
+        <div class="container ">
+            <a href="https://github.com/TatyanaMie">
+                <img class="tm-redesocial p-30" src="assets/img/github.png" alt="Logo github">
+         </a>
+                <a href="https://www.linkedin.com/in/tatyana-okimura-313464132/">
+            <img class="tm-redesocial p-30" src="assets/img/linkedin.png" alt="Logo linkedin">
+           </a> 
+           <a href="www.instagram.com">
+            <img class="tm-redesocial p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+           </a>
         </a>
-        <a href="https://www.cinemark.com.br/filme/morbius">
-            <li>Comprar Ingressos</li>
+        <a href="www.facebook.com">
+            <img class="tm-redesocial p-30" src="assets/img/facebook.png" alt="Logo do facebook">
         </a>
-    </ul>
-    
+        </div>
+        <p class="center">
+            Todos direitos reservados a Adoro Filmes  
+        </p>
+    </footer>
 </body>
 </html>
